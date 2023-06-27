@@ -1,11 +1,36 @@
-.App {
-  text-align: center;
+.navbar{
+  background-color: #61dafb;
+}
+.navbar li{
+    display: inline-block;
+    padding: 10px;
+}
+.navbar li a{
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+  list-style: none;
+}
+.footer{
+  position: absolute;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   align-items: center;
+   background-color: #61dafb;
+   width: 100%;
+   bottom: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.inputBox{
+  display: block;
+  margin: 10px;
+  padding: 7px;
+  width: 300px;
+  border: 1px solid #61dafb;
+  outline: none;
 }
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
